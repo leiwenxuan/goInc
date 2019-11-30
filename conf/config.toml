@@ -1,0 +1,13 @@
+[mongodb]
+url = "mongodb://localhost:27017"
+
+[mysql]
+user = "root"
+password = "123456"
+host = "127.0.0.1"
+port = "20001"
+dababase = ""
+url = "%s:%s@tcp(%s:%s)/?charset=utf8"
+
+[inception]
+url = "root:123456@tcp(127.0.0.1:6669)/?charset=utf8"
